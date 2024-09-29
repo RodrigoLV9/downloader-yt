@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: "Inter", system-ui;
+}
+html,body{
+    background-color: rgb(243,185,98);
+}
+
+/* HERO */
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:25px;
+}
+.logo{
+    margin:20px;
+    width:100px;
+    height: 100px;
+}
+.title{
+    text-align: center;
+}
+.hero-p{
+    text-align: center;
+}
+
+/* INPUT */
+.containerInput{
+    width: 700px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+
+}
+.input{
+    width: 500px;
+    height: 30px;
+    border:none;
+    outline: none;
+    border: 1px solid black;
+    padding:5px;
+}
+.search{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(9, 124, 201);
+    text-align: center;
+    padding-top:5px;
+    border:1px solid black;
+    font-weight: bold;
+    cursor:pointer;
+    transition: all .2s;
+}
+.search:hover{
+    background-color: rgb(7, 76, 179);
+}
+
+/* VIDEO */
+.containerVideo{
+    width: 700px;
+    margin:50px auto;
+}
+.video{
+    display: block;
+    width: max-content;
+    height:400px;
+    margin:auto
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* FOOTER */
+hr{
+    display: block;
+    border-color: rgb(126, 126, 126);
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:20px;
+}
